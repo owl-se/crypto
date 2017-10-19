@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1068" started-at="2017-10-19T15:47:03Z" finished-at="2017-10-19T15:47:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1068" started-at="2017-10-19T15:47:03Z" finished-at="2017-10-19T15:47:04Z">
+      <class name="home.crypto.AppTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:home.crypto.AppTest@5c7fa833]" name="setUp" is-config="true" duration-ms="148" started-at="2017-10-19T18:47:03Z" finished-at="2017-10-19T18:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterTest(java.lang.String, java.lang.String)[pri:0, instance:home.crypto.AppTest@5c7fa833]" name="enterTest" duration-ms="902" started-at="2017-10-19T18:47:03Z" data-provider="test1" finished-at="2017-10-19T18:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sandbox.cryptopay.me/api/v2/exchange_transfers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[acea9d6d570540bb7d0e0f077182ffdc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:home.crypto.AppTest@5c7fa833]" name="setUp" is-config="true" duration-ms="2" started-at="2017-10-19T18:47:04Z" finished-at="2017-10-19T18:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feeTest()[pri:0, instance:home.crypto.AppTest@5c7fa833]" name="feeTest" duration-ms="0" started-at="2017-10-19T18:47:04Z" finished-at="2017-10-19T18:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feeTest -->
+      </class> <!-- home.crypto.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
